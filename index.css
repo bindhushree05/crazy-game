@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #323e4b; /* Dark gray text color */
+    height: 100vh;
+    flex-direction: column;
+}
+
+.game-cover {
+    background: url("./assets/bg.png") no-repeat;
+    background-size: cover;
+    background-color: #3498db; /* Dark blue background color */
+}
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.heading {
+    color: #5A25C0; /* Purple heading color */
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 90px;
+    right: 100px;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+#logo {
+    width: 30%;
+    position: relative;
+    right: 300px;
+    top: 100px;
+}
+
+.play {
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+}
+
+.play-text {
+    position: relative;
+    bottom: 45px;
+    left: 300px;
+    font-weight: 900;
+}
+
+.score {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ECF0F1; /* Light gray text color */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: -60px;
+}
+
+.you, .comp {
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid #3498db; /* Dark blue border */
+    width: 300px;
+    height: 300px;
+    background-color: #3498db; /* Dark blue background color */
+}
+
+#paper, #rock, #scissors {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 200px;
+    right: 60px;
+}
+
+#versus {
+    width: 100px;
+    height: auto;
+    margin-top: 40px;
+}
+
+#text {
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+
+.scores {
+    font-size: 4em;
+    padding: 20px;
+    margin-top: 90px;
+    color: #3498db; /* Dark blue text color */
+}
+
+#selectedLogo, #computerLogo {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+}
+
+.gameOverMessage {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.playAgainButton {
+    background-color: #E74C3C; /* Dark red background color */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
